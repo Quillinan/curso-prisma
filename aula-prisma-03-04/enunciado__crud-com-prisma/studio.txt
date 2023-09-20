@@ -1,0 +1,3 @@
+Comando para abrir prisma studio:
+
+npx prisma studio
