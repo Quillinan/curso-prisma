@@ -7,10 +7,11 @@ async function getProducts() {
 
 async function getProduct(id: number) {
   const product = await productRepository.getProduct(id);
-  if (!product) throw {
-    name: "NotFoundError",
-    message: "Post not found"
-  };
+  if (!product)
+    throw {
+      name: "NotFoundError",
+      message: "Post not found",
+    };
 
   return product;
 }
@@ -21,7 +22,8 @@ async function createProduct(post) {
 
 const postService = {
   getProducts,
-  createProduct
-}
+  getProduct,
+  createProduct,
+};
 
 export default postService;
