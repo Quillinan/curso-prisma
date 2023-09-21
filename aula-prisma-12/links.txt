@@ -1,0 +1,8 @@
+🌐 Referential actions (Prisma Documentation)
+https://www.prisma.io/docs/concepts/components/prisma-schema/relations/referential-actions
+
+🌐 Pagination (Prisma Documentation)
+https://www.prisma.io/docs/concepts/components/prisma-client/pagination
+
+🌐 Indexes (Prisma Documentation)
+https://www.prisma.io/docs/concepts/components/prisma-schema/indexes
